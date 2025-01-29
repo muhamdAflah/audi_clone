@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.logo{
+    margin: 0;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-bottom: 25px;
+    display: flex;
+}
+.bar{
+    display: flex;
+}
+.bar li{
+    display: flex;
+    margin-top: 7px;
+    font-size: 15px;
+    color: gray;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 50px;
+}
+.search {
+    display: flex;
+}
+
+/* slider */
+.audi1{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+}
+
+.audi1p {
+    display: inline;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    position: absolute;
+    left: 90px;
+    top: 130px;
+}
+
+.audi1p :nth-child(4){
+    display: inline;
+    position: absolute;
+    color: white;
+    opacity: 75%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    left: 0px;
+    top: 150px;
+}
+.audi1pmodel{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    margin-left: 600px;
+    margin-top: 100px;
+    display: flex;
+}
+#audi1pl a{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: black;
+    margin-top: 0px;
+    margin-left: 700px;
+
+}
+
+/* models */
+.audi2{
+    margin: 0;
+    padding: 0
+    position: relative;
+    margin-top: 75px;
+}
+.audi2car{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 1400px;
+    left: 300px;
+}
+.audi2car2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 50px;
+    top: 1430px;
+    left: 1110px;
+}
+#q7 {
+    display: flex;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 1850px;
+    left: 100px;
+
+}
+#btn1 {
+    display: flex;
+    position: absolute;
+    border: 1px black;
+    width: 150px;
+    height: 50px;
+    top: 1885px;
+    left: 100px;
+    padding: 18px 40px;
+  
+}
+#btn2 {
+    display: flex;
+    position: absolute;
+    background-color:transparent;
+    opacity: 100%;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    width: 150px;
+    height: 50px;
+    top: 1885px;
+    left: 255px;
+    padding: 18px 35px;
+  
+}
+.audi2p{
+    margin: 0;
+    padding: 0;
+    margin-left: 90px;
+    margin-right: 100px;
+    font-size: 14.5px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+/* audi assist */
+.audi3{
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+    margin-left:75px;
+    display: inline;
+}
+#audi3h4 {
+    display: inline;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: lighter;
+    font-size: 30px;
+    left: 880px;
+    top: 2350px;
+}   
+#btn3 {
+    display: flex;
+    position: absolute;
+    background-color:black;
+    opacity: 100%;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    width: 150px;
+    height: 50px;
+    top: 2430px;
+    left: 880px;
+    padding: 18px 35px;
+}
+
+/* electric */
+.audi4{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    display: flex;
+}
+#ebox {
+    background-color: white;
+    color: white;
+    margin-left: 50px;
+    width: 40%;
+    height: 350px;
+    display: flex;
+    position: absolute;
+    top: 3200px;
+}
+#eboxt h2{
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    width: 40%;
+    height: 350px;
+    display: flex;
+    position: absolute;
+    top: 3270px;
+
+}
+#eboxt p{
+    margin-left: 100px;
+    color: black;
+    opacity: 90%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    width: 35%;
+    height: 350px;
+    display: flex;
+    position: absolute;
+    top: 3350px;
+}
+#btn4 {
+    display: flex;
+    position: absolute;
+    background-color:black;
+    opacity: 100%;
+    text-align: center;
+    color: white;
+    width: 150px;
+    height: 50px;
+    top: 3465px;
+    left: 100px;
+    padding: 18px 25px;
+}
+#btn5 {
+    display: flex;
+    position: absolute;
+    background-color:transparent;
+    opacity: 100%;
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    top: 3465px;
+    left: 255px;
+    padding: 15px 30px;
+}
+/* dealer location */
+.audi5{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 85px;
+}
+.audi5 h2{
+    display: inline;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: lighter;
+    font-size: 35px;
+    left: 840px;
+    top: 4750px;
+}
+#btn6 {
+    display: flex;
+    position: absolute;
+    font-size: 15px;
+    background-color:black;
+    opacity: 100%;
+    text-align: center;
+    color: white;
+    width: 150px;
+    height: 50px;
+    top: 4850px;
+    left: 840px;
+    padding: 15px 28px;
+}
+
+/* audi connect */
+.audi6{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 800px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#cnctbox1 {
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+    display: flex;
+    background-color: black;
+    width: 55%;
+    height: 1000px;
+    position: absolute;
+    top: 5226px;
+}
+#cnctbox1 :nth-child(2){
+    color: white;
+    margin-top: 550px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+    font-weight: 100;
+    margin-right: 60px;
+    font-size: 30px;
+}
+#myaudi {
+    color: white;
+    margin-top: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    font-weight: 100;
+    margin-right: 100px;
+    font-size: 30px;
+    position: absolute;
+    top: 4985px;
+}
+#audicnctbtn {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    opacity: 100%;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    top: 5950px;
+    left: 80px;
+    padding: 15px 30px;
+}
+#audicnctbtn button{
+    background-color: black;
+    font-size: 17px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+#audicnctbtn2 button{
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    opacity: 100%;
+    text-align: center;
+    width: 150px;
+    height: 62px;
+    top: 5950px;
+    left: 300px;
+    font-size: 17px;
+    color: white;
+    padding: 20px 30px;
+}
+
+/* servieces */
+.audi7{
+    display: flex;
+    padding: 0;
+    margin-right: 5%;
+    margin-top: 75px;
+    margin-left: 85px;
+}
+.audi7p{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.audi7p :nth-child(2){
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+.audi8 { 
+    display: flex;
+    padding: 0;
+    margin-top: 75px;
+    margin-left: 650px;
+    margin-right: 100px;
+    position: absolute;
+    top: 6231px;
+    left: 120px;
+}
+.audi8p{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 30px;
+    position: absolute;
+    top: 6700px;
+    left: 780px;
+}
+.audi8p :nth-child(2){
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 15px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+
+}
+.audi9{
+    display: flex;
+    padding: 0;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-left: 85px;
+}
+.audi9p{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.audi9p2{
+   margin: 0;
+   padding: 0;
+   margin-top: 15px;
+   margin-left: 85px; 
+}
+.audi10 {
+    display: flex;
+    padding: 0;
+    width: 43%;
+    margin-top: 75px;
+    margin-left: 650px;
+    margin-right: 100px;
+    position: absolute;
+    top: 6789px;
+    left: 120px;
+}
+.audi10p{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 30px;
+    position: absolute;
+    top: 7280px;
+    left: 780px;
+}
+.audi10p :nth-child(2){
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 15px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+
+}
+
+/* footer */
+.footer {
+    background-color: #000;
+    margin-top: 100px;
+    height: 120vh;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-column {
+    margin-bottom: 20px;
+}
+.footer-column h3 {
+    color: white;
+    margin: 80px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-bottom {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    margin-right: 50px;
+    padding: 20px;
+    font-size: 12px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer-disclaimer {
+    color: rgb(255, 255, 255);
+    bottom: 0;
+}
+
+/* fixed logo */
+#fixed{
+    position: fixed;
+    top: 625px;
+    left: 1400px;
+}
